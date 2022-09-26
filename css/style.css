@@ -1,0 +1,167 @@
+body{
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 18px !important;
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    color: whitesmoke !important;
+}
+p{
+    color: #dfdfdf !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.navbar-toggler{
+    border-radius:none;
+}
+.nav-link{
+    color: whitesmoke !important;
+    transition: 1s;
+}
+.nav-link:hover {
+    transition: 1s;
+    color: #FF4A57 !important;
+    border-bottom: 1px solid red;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #FF4A57 !important;
+    border-bottom: 1px solid red;
+}
+.banner {
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+}
+.list-group-item{
+    margin-right: 28px;
+}
+.list-group-item a{
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 180px;
+    border: 2px solid #FF4A57;
+}
+.list-group-item a:hover{
+    background-color: #FF4A57;
+    transition: 0.5s ;
+}
+.img{
+    width: 50%;
+}
+.image-custom-rounded{
+    width: 100%;
+    border-radius:  50px 5px 50px 5px;
+    transition: 1s;
+}
+.image-custom-rounded:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    scale: 1.06;
+    transition: 0.6s;
+}
+#navbar{
+    transition: 0.4s;
+    overflow: hidden;
+    padding: 0px 10px;
+    transition: 0.4s;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.navbarColor{
+    background: #395076;  /* fallback for old browsers */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+#toggle-icon{
+    transition: 0.8s
+}
+.toggle-icon-hover{
+    fill:#FF4A57 !important;
+    transition: 0.8s;
+}
+.rotate-toggle-icon{
+    transform: rotate(360deg);
+}
+/* ---------- CustomScrollbar -----------*/
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f31c4; 
+  }
+.social-media{
+    margin-top: 150px;
+}
+.logo{
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+.competence-column{
+    padding: 94px 40px;
+    color: whitesmoke;
+    background-color: transparent;
+    transition: 0.5s;
+ }
+ .competence-column:hover{
+    background-color: rgb(111 84 165) !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 12px 20px 20px 10px;
+    scale: 1.06;
+    transition: 0.6s;
+ }
+
+ .service{
+    padding: 58px 0px 58px;
+    width: 50%;
+    margin: auto;
+ }
+ footer{
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #51457e, #1c415a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .progress-bar{
+    background-color: #FF4A57 !important;
+ }
+/* ------------  Mobile responsive ------------*/
+@media (max-width: 768px){
+    .banner{
+        text-align: center;
+    }
+    .service{
+        width: 100%;
+    }
+    .navbar-nav{
+        text-align: left;
+    }
+}
+@media (max-width: 990px){
+    .navbar-nav{
+        text-align: left;
+    }
+}
