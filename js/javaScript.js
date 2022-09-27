@@ -11,4 +11,4 @@ function rotateToggleIcon(){
     toggleIcon.classList.add('toggle-icon-hover');
   }
 }
-document.getElementById('goToTop').onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+document.getElementById('goToTop').onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
