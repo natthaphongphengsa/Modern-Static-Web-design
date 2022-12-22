@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "aos": "^2.3.4",
-    "bootstrap-icons": "^1.9.1"
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.9.1",
+    "swiper": "^8.4.2"
   }
 }
