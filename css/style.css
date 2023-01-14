@@ -230,6 +230,10 @@ p{
   position: relative;
   box-sizing: border-box
 }
+.overlayframe{
+    opacity: 0.1;
+    top: -12px;
+}
 .btn-close{
     opacity: 1 !important;
 }
