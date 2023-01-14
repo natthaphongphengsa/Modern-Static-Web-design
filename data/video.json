@@ -1,0 +1,47 @@
+[
+    {
+      "genre":"Ceremony",
+      "link":"https://www.youtube.com/embed/Lnjab17j960?autoplay=1",
+      "poster":"https://i.ytimg.com/vi/Lnjab17j960/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFkoSzAP&rs=AOn4CLD2lw-0-PEdCpLgk0NfiN-2Vlc4vw"
+    },
+    {
+      "genre":"Ceremony",
+      "link":"https://www.youtube.com/embed/RY6HV1pNZmY?autoplay=1",
+      "poster":"https://i.ytimg.com/vi/RY6HV1pNZmY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGIoUjAP&rs=AOn4CLDHd7KOE0GhXkKeylp6YhSDx4wBNA"
+    },
+    {
+      "genre":"Ceremony",
+      "link":"https://www.youtube.com/embed/g_dL86WrF4E?autoplay=1",
+      "poster":"https://i.ytimg.com/vi/g_dL86WrF4E/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFIoPjAP&rs=AOn4CLAyExS0Hktv0KLABcp1-O2FeBOgsQ"
+    },
+    {
+      "genre":"Ceremony",
+      "link":"https://www.youtube.com/embed/ISRL6vYV3vE?autoplay=1",
+      "poster":"https://i.ytimg.com/vi/F2BvgSOXjbE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkBXjG_W6aQnasmulcUJe98Qj8jw"
+    },
+    {
+        "genre":"Ceremony",
+        "link":"https://www.youtube.com/embed/fgF6vms_dtk?autoplay=1",
+        "poster":"https://i.ytimg.com/vi/fgF6vms_dtk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDge72xzav4C6_JB_Q_GQ8BWOEjBA"
+    },    
+    {
+        "genre":"Ceremony",
+        "link":"https://www.youtube.com/embed/Z0e572-FZn4?autoplay=1",
+        "poster":"https://i.ytimg.com/vi/Z0e572-FZn4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPh2QeOzDF7D-kpfPAPbkhPcQurA"
+    }, 
+    {
+      "genre":"Wedding",
+      "link":"https://www.youtube.com/embed/LRhHvluhbnY?autoplay=1",
+      "poster":"https://i.ytimg.com/vi/LRhHvluhbnY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_h2AAvAQigIMCAAQARhZIFQoZTAP&rs=AOn4CLC3GmMOFHOn996y3aAkkKOA5hiQcg"
+    },
+    {
+      "genre":"Wedding",
+      "link":"https://www.youtube.com/embed/5He0AQzKlcw?autoplay=1 ",
+      "poster":"https://i.ytimg.com/vi/5He0AQzKlcw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMxlsdXnVeWrn5UtuYFNqDeQ3dBA"
+    },
+    {
+      "genre":"Wedding",
+      "link":"https://www.youtube.com/embed/k3fcVIcDCsc?autoplay=1",
+      "poster":"https://i.ytimg.com/vi/k3fcVIcDCsc/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhlIGAoWjAP&rs=AOn4CLDN_NRJcDIch1DzJmoJKSwpEitA4Q"
+    }
+]
