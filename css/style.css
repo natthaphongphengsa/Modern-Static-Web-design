@@ -219,18 +219,8 @@ p{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 250ms;
 }
-.projects:hover{
-    -ms-transform: scale(1.3); /* IE 9 */
-    -webkit-transform: scale(1.3); /* Safari 3-8 */
-    transform: scale(1.3); 
-    z-index: 99999;
-    transition: 1s;
-}
 #films{
     margin-top: 62px;
-}
-.projects:hover .videoInnerOverlay {
-    z-index: 1;
 }
 .overlay{
   position: relative;
@@ -296,5 +286,15 @@ p{
     }
     .modal-dialog {
         max-width: 100% !important;
+    }
+    .projects:hover{
+        -ms-transform: scale(1.3); /* IE 9 */
+        -webkit-transform: scale(1.3); /* Safari 3-8 */
+        transform: scale(1.3); 
+        z-index: 99999;
+        transition: 1s;
+    }
+    .projects:hover .videoInnerOverlay {
+        z-index: 1;
     }
 }
