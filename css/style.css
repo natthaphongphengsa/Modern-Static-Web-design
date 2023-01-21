@@ -35,9 +35,6 @@ p{
 .banner {
     padding-bottom: 150px !important;
 }
-.list-group-item{
-    margin-right: 28px;
-}
 .list-group-item a{
     display: inline-flex;
     padding: 12px;
@@ -66,7 +63,6 @@ p{
     overflow: hidden;
     padding: 0px;
     transition: 0.4s;
-    position: sticky;
     width: 100%;
     top: 0;
     z-index: 99;
@@ -108,9 +104,6 @@ p{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #3f31c4; 
-}
-.social-media{
-    margin-top: 150px;
 }
 .logo{
     padding-top: 78px;
@@ -278,9 +271,24 @@ p{
     }
     .navbar-nav{
         text-align: left;
+    }  
+    .social-media{
+        display: flex;
+        justify-content:center;
+        padding: 0;
+        gap: 32px;
+    }  
+    .responsive-w-50{
+        width: 50% !important;
     }
 }
 @media(min-width:990px){
+    .social-media{
+        display: flex;
+        justify-content:flex-start;
+        padding: 0;
+        gap: 32px;
+    }
     .banner{
         padding-top: 150px !important;
     }
