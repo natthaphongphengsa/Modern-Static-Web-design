@@ -18,7 +18,7 @@ p{
     box-shadow: none !important;
 }
 .navbar-toggler{
-    border-radius:none;
+    border-radius: 0;
 }
 .nav-link{
     color: whitesmoke !important;
