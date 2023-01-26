@@ -67,6 +67,9 @@ p{
     top: 0;
     z-index: 99;
 }
+.left-50{
+    left: 50%;
+}
 .navbarColor{
     background: #395076;  /* fallback for old browsers */
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
