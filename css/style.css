@@ -67,8 +67,8 @@ p{
     top: 0;
     z-index: 99;
 }
-.left-50{
-    left: 50%;
+.right-50{
+    right: 50px;
 }
 .navbarColor{
     background: #395076;  /* fallback for old browsers */
