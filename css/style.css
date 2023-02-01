@@ -161,6 +161,9 @@ p{
     background-color: #3d4d76;
     background-attachment: fixed;
 }
+.modal.show .modal-dialog{
+    padding: 12px;
+}
 /* -------------- Carousel -------------------- */
 #carouselExampleFade{
     box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
@@ -283,6 +286,9 @@ p{
     }  
     .responsive-w-50{
         width: 50% !important;
+    }
+    .modal-dialog{
+        max-width: 100% !important;
     }
 }
 @media(min-width:990px){
