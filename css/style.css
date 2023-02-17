@@ -161,8 +161,20 @@ p{
     background-color: #3d4d76;
     background-attachment: fixed;
 }
+#staticBackdrop{
+    backdrop-filter: blur(1rem);
+}
 .modal.show .modal-dialog{
     padding: 12px;
+}
+.modal{
+    backdrop-filter: blur(1rem);
+}
+.cv{
+    border-color: #FF4A57 !important;
+}
+.cv:hover{
+    background: #FF4A57 !important;
 }
 /* -------------- Carousel -------------------- */
 #carouselExampleFade{

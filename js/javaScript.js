@@ -1,4 +1,5 @@
 document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+document.getElementById("weddingTrailer").play();
 
 function rotateToggleIcon(){
   var toggleIcon = document.getElementById('toggle-icon');

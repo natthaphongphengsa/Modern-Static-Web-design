@@ -31,17 +31,17 @@
     }, 
     {
       "genre":"Wedding",
-      "link":"https://www.youtube.com/embed/LRhHvluhbnY?autoplay=1",
+      "link":"https://www.youtube.com/watch?v=LRhHvluhbnY",
       "poster":"https://i.ytimg.com/vi/LRhHvluhbnY/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_h2AAvAQigIMCAAQARhZIFQoZTAP&rs=AOn4CLC3GmMOFHOn996y3aAkkKOA5hiQcg"
     },
     {
       "genre":"Wedding",
-      "link":"https://www.youtube.com/embed/5He0AQzKlcw?autoplay=1 ",
+      "link":"https://www.youtube.com/watch?v=5He0AQzKlcw",
       "poster":"https://i.ytimg.com/vi/5He0AQzKlcw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMxlsdXnVeWrn5UtuYFNqDeQ3dBA"
     },
     {
       "genre":"Wedding",
-      "link":"https://www.youtube.com/embed/k3fcVIcDCsc?autoplay=1",
+      "link":"https://www.youtube.com/watch?v=k3fcVIcDCsc",
       "poster":"https://i.ytimg.com/vi/k3fcVIcDCsc/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhlIGAoWjAP&rs=AOn4CLDN_NRJcDIch1DzJmoJKSwpEitA4Q"
     }
 ]
