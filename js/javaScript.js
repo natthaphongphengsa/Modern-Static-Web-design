@@ -98,7 +98,7 @@ function fetchVideo(playList){
 
     image.setAttribute('src', `${video.poster}`);
     image.setAttribute('alt', `${video.link}`);
-    image.setAttribute('class','w-100 rounded-4');
+    image.setAttribute('class','w-100 rounded-4 box-shadow-custom-project');
 
     overlay.setAttribute('class','videoInnerOverlay rounded-4 d-flex justify-content-center align-items-center');    
     overlay.append(playIcon);  

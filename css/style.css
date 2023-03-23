@@ -226,10 +226,11 @@ p{
     margin: 0 40px;
     transform: scale(1.2);
 }
-#weddingTrailer, .projects, iframe, .hardshadow{
+#weddingTrailer, .box-shadow-custom-project, iframe, .hardshadow{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 250ms;
 }
+
 #films{
     margin-top: 62px;
 }
@@ -237,7 +238,18 @@ p{
   position: relative;
   box-sizing: border-box;
 }
-
+.projects{
+    transition: 250ms;
+}
+#goToTop{
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 99;
+    background-color: whitesmoke;
+    transition: 1s;
+}
 .videoInnerOverlay {
     background-color: black;
     top: 0;
@@ -245,8 +257,8 @@ p{
     width: 100%;
     height: 100%;
     position: absolute;
-    opacity: 0.8;
-    z-index: -1;
+    opacity: 0;
+    z-index: 1;
     transition: 250ms;
 }
 .innerText{
@@ -316,14 +328,14 @@ p{
     .modal-dialog {
         max-width: 100% !important;
     }
-    .projects:hover{
-        -ms-transform: scale(1.3); /* IE 9 */
-        -webkit-transform: scale(1.3); /* Safari 3-8 */
-        transform: scale(1.3); 
+    .projects:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
         z-index: 99999;
-        transition: 1s;
+        transition: 550ms;
     }
     .projects:hover .videoInnerOverlay {
-        z-index: 1;
+        opacity: 0.8;
     }
 }
