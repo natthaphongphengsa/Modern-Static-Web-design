@@ -119,7 +119,7 @@ function fetchVideo(playList){
     videoElement.append(innerElement);
     videoElement.href = `${video.link}`;
 
-    if(video.genre == "Ceremony"){
+    if(video.genre == "Ceremonies"){
       if(genreCount == 0){
         span.innerHTML = `${video.genre} `;
         span.append(arrow);
@@ -128,7 +128,7 @@ function fetchVideo(playList){
       }
       element.append(videoElement);
     }
-    else if(video.genre == "Wedding"){
+    else if(video.genre == "Weddings"){
       if(genreCount == 1){
         span.innerHTML = `${video.genre} `;
         span.append(arrow);
@@ -152,7 +152,6 @@ for (var i = 0; i < li.length; i++) {
       if(current.classList.contains('active')){
         current.classList.remove("active");
       }
-
       this.classList.add("active");    
     }
     Close();
