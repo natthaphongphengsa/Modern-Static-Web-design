@@ -21,6 +21,10 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   breakpoints: {
     "@0.00": {
       slidesPerView: 1,
@@ -119,16 +123,7 @@ function fetchVideo(playList){
     videoElement.append(innerElement);
     videoElement.href = `${video.link}`;
 
-    if(video.genre == "Ceremonies"){
-      if(genreCount == 0){
-        span.innerHTML = `${video.genre} `;
-        span.append(arrow);
-        element.append(span);
-        genreCount++;
-      }
-      element.append(videoElement);
-    }
-    else if(video.genre == "Weddings"){
+   if(video.genre == "Wedding"){
       if(genreCount == 1){
         span.innerHTML = `${video.genre} `;
         span.append(arrow);
