@@ -92,7 +92,6 @@ function fetchVideo(playList){
     const videoElement = document.createElement("a");
     const innerElement = document.createElement("div");
     const overlay = document.createElement("div");
-    const text = document.createElement("div");
     const image = document.createElement("img");
     const span = document.createElement("span");
     const arrow = document.createElement("i");
@@ -134,24 +133,6 @@ function fetchVideo(playList){
     }
   }
 };
-
-var ul = document.getElementsByClassName("navbar-nav");
-var li = ul[0].children;
-
-for (var i = 0; i < li.length; i++) {
-  var link = li[i].children[0];
-  link.addEventListener("click", function() 
-  {
-    for (let y = 0; y < li.length; y++) {
-      var current = li[y].children[0];
-      if(current.classList.contains('active')){
-        current.classList.remove("active");
-      }
-      this.classList.add("active");    
-    }
-    Close();
-  });
-}
 
 function Close(){    
   var element = document.getElementById('navbartoggle');

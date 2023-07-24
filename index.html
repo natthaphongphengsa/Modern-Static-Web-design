@@ -65,7 +65,7 @@
             </a>
           </li>
           <li class="nav-item m-lg-3">
-            <a class="nav-link active text-uppercase" href="#">
+            <a class="nav-link text-uppercase" href="#aboutme">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person-circle m-2" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
@@ -78,7 +78,7 @@
     </div>
   </nav>
   <main class="mb-5">
-    <div class="banner">
+    <div class="banner" id="aboutme">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-7">
@@ -571,6 +571,43 @@
   <!-- Initialize aos -->
   <script>
     AOS.init();
+  </script>
+  <script>   
+     
+    var ul = document.getElementsByClassName("navbar-nav");
+    var li = ul[0].children;
+    var url = document.URL.toString();
+    var UrlRequest = url.split("#")[1];
+
+    if(UrlRequest != undefined){
+      
+      for (var i = 0; i < li.length; i++){
+        
+        var navText = li[i].innerText.toString().trim().replace(" ","");
+        var targetNavText = UrlRequest.toUpperCase();
+
+        if(navText == targetNavText){
+          
+          li[i].children[0].classList.add("active");
+          console.log(li[i].children[0].classList);
+        }
+      }
+    }
+
+    for (var i = 0; i < li.length; i++) {  
+        var link = li[i].children[0];
+        link.addEventListener("click", function() 
+        {
+        for (let y = 0; y < li.length; y++) {
+            var current = li[y].children[0];
+            if(current.classList.contains('active')){
+            current.classList.remove("active");
+            }
+            this.classList.add("active");    
+        }
+        Close();
+        });
+      }
   </script>
 </body>
 </html>
